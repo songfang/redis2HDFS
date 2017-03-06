@@ -1,0 +1,13 @@
+{
+	"redis_host" : "192.168.11.76",
+	"redis_port" : 6379,
+	"hdfs_host" : "192.168.11.76",
+	"hdfs_port" : 8010,
+	"hdfs_file" : "/tmp/httpRequest/header.txt",
+	"redis_list_key" : "header:members",
+	"zset_min_index" : 0,
+	"zset_max_index" : -1,
+	"log_path" : "./logs",
+	"log_file" : "redis_to_hdfs.log",
+	"log_level" : 0
+}
